@@ -1,0 +1,76 @@
+
+
+
+
+
+
+
+
+.principal {
+
+    background-image: url("imagens/anel2.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  box-shadow:  0.5px 0.5px 0.5px 0.5px #c95a5a; 
+ 
+}
+
+body { color : white; background-color : black;}
+
+
+
+
+/*.imagen1{
+    max-width: 100%;
+    max-height:40%;
+    width: auto;
+    height: auto; }*/
+
+    .div2 {
+        margin : 0px;
+    }
+
+body { background-color :};
+
+/*
+.img-1 {
+    max-width:500px;
+    max-height:300px;
+    width: auto;
+    height: auto; }
+
+.img-2 { 
+    max-width:100%;
+    max-height:300px;
+    width: auto;
+    height: auto;}
+
+    #carouselExampleIndicators {
+        width: 700px;
+        height: 400px;
+        margin : auto;
+        
+    }
+
+    #logo {  max-width:60%;
+        max-height:200px;
+        width: auto;
+        height: auto;}
+
+        .nav1 { background-color : black;}
+
+        .navbar-brand{ color : #daa520; font-size : 45px; }
+
+
+    .paragrafo1 { margin-top : 50%;}
+
+    .card-deck { margin-top : 15%; margin-bottom: 25%;}
+
+    #intro {
+        background-image: url("https://mdbootstrap.com/img/new/fluid/city/018.jpg");
+        height: 100vh;
+      }
+      */
