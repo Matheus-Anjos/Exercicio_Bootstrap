@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testando Bootstrap</title>
+    <title>Senhor dos Anéis</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" 
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -14,7 +14,8 @@
 <body>
     <!--Navbar -->
 <nav class="mb-1 navbar navbar-expand-lg navbar-dark orange lighten-1">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#"><img src="imagens/Sauron.png" class="rounded-circle z-depth-0"
+      alt="avatar image" height="35"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
       aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -27,16 +28,16 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#introvideo">Vídeo</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#rodape">Contato</a>
         </li>
       </ul>
       <ul class="navbar-nav ml-auto nav-flex-icons">
         <li class="nav-item avatar">
           <a class="nav-link p-0" href="#">
-            <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-5.webp" class="rounded-circle z-depth-0"
+            <img src="imagens/hobbit.jpg" class="rounded-circle z-depth-0"
               alt="avatar image" height="35">
           </a>
         </li>
@@ -52,11 +53,11 @@
               <div class="container d-flex align-items-center justify-content-center text-center h-100">
                 <div class="text-white">
                   <h1 class="mb-3">A SAGA CONTINUA</h1>
-                  <h5 class="mb-4">Best & free guide of responsive web design</h5>
-                  <a class="btn btn-outline-light btn-lg m-2" href="https://www.youtube.com/watch?v=c9B4TPnak1A" role="button"
-                    rel="nofollow" target="_blank">Start tutorial</a>
-                  <a class="btn btn-outline-light btn-lg m-2" href="https://mdbootstrap.com/docs/standard/" target="_blank"
-                    role="button">Download MDB UI KIT</a>
+                  <h5 class="mb-4">Tudo o que temos de decidir é o que fazer com o tempo que nos é dado</h5>
+                  <a class="btn btn-outline-light btn-lg m-2" href="https://www.warnerbros.com/movies/lord-rings-fellowship-ring" role="button"
+                    rel="nofollow" target="_blank">Site Oficial</a>
+                  <a class="btn btn-outline-light btn-lg m-2" href="http://lotrproject.com/map/#zoom=3&lat=-1315.5&lon=1500&layers=BTTTTT" target="_blank"
+                    role="button">Mapa Terra Média</a>
                 </div>
               </div>
             </div>
@@ -114,8 +115,13 @@
     </div>
   </div>
 
-    <div class="container">
+    <div class="container" id="introvideo">
     <iframe width="1120" height="630" style="margin : center;" src="https://www.youtube.com/embed/3IY30-QCijY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="container" id="info">
+  <h2> <img src="imagens/terramedia.jpg" class="rounded-circle z-depth-0"
+    alt="avatar image" height="55">        INSCREVA-SE PARA RECEBER INFORMAÇÕES SOBRE A SÉRIE</h2>
 </div>
 
 <div class="container">
@@ -141,19 +147,19 @@
 <div class="col">
     <form>
         <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
+          <label for="exampleInputEmail1">Email</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
+          <label for="exampleInputPassword1">Senha</label>
           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
         </div>
         <div class="form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          <label class="form-check-label" for="exampleCheck1">Checar</label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Cadastre</button>
       </form>
 
 
@@ -218,7 +224,7 @@
     </div>
   
     <!-- Footer Links -->
-    <div class="container text-center text-md-left mt-5">
+    <div class="container text-center text-md-left mt-5" id="rodape">
   
       <!-- Grid row -->
       <div class="row mt-3">
@@ -227,11 +233,10 @@
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
   
           <!-- Content -->
-          <h6 class="text-uppercase font-weight-bold">Company name</h6>
+          <h6 class="text-uppercase font-weight-bold">Terra Média</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-            consectetur
-            adipisicing elit.</p>
+          <p> <img src="imagens/gandalf.jpg" class="rounded-circle z-depth-0"
+          alt="avatar image" height="150"></p>
   
         </div>
         <!-- Grid column -->
@@ -240,19 +245,19 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
   
           <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">Products</h6>
+          <h6 class="text-uppercase font-weight-bold">LIVROS</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
-            <a href="#!">MDBootstrap</a>
+            <a href="#!">Senhor dos Anéis</a>
           </p>
           <p>
-            <a href="#!">MDWordPress</a>
+            <a href="#!">O Hobbit</a>
           </p>
           <p>
-            <a href="#!">BrandFlow</a>
+            <a href="#!">O Silmarillion</a>
           </p>
           <p>
-            <a href="#!">Bootstrap Angular</a>
+            <a href="#!">Beren e Lúthien</a>
           </p>
   
         </div>
@@ -262,21 +267,19 @@
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
   
           <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+          <h6 class="text-uppercase font-weight-bold">Saiba Mais</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
-            <a href="#!">Your Account</a>
+            <a href="https://www.youtube.com/watch?v=0i86oM1nHjM&ab_channel=VeloxTickets">Trailer - Sociedade do Anel (2001)</a>
           </p>
           <p>
-            <a href="#!">Become an Affiliate</a>
+            <a href="https://www.youtube.com/watch?v=2y1Jwwbo1r4&ab_channel=CamClips">Trailer - As Duas Torres (2002)</a>
           </p>
           <p>
-            <a href="#!">Shipping Rates</a>
+            <a href="https://www.youtube.com/watch?v=Q1e2oDAJIIk&ab_channel=CamClips">Trailer - O Retorno do Rei (2003)</a>
           </p>
           <p>
-            <a href="#!">Help</a>
-          </p>
-  
+      
         </div>
         <!-- Grid column -->
   
@@ -284,16 +287,19 @@
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
   
           <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <h6 class="text-uppercase font-weight-bold">Contato</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
           <p>
-            <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <i class="fas fa-home mr-3"></i> <img src="imagens/youtube.png" class="rounded-circle z-depth-0"
+            alt="avatar image" height="35"></p>
           <p>
-            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            <i class="fas fa-envelope mr-3"></i> <img src="imagens/thefacebook.png" class="rounded-circle z-depth-0"
+            alt="avatar image" height="35"></p>
           <p>
-            <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <i class="fas fa-phone mr-3"></i> <img src="imagens/github.png" class="rounded-circle z-depth-0"
+            alt="avatar image" height="35"></p>
           <p>
-            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+           
   
         </div>
         <!-- Grid column -->
@@ -305,8 +311,8 @@
     <!-- Footer Links -->
   
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    <div class="footer-copyright text-center py-3">© 2022 Copyright:
+      <a href="https://github.com/Matheus-Anjos"> Matheus Anjos</a>
     </div>
     <!-- Copyright -->
   
